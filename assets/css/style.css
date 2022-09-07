@@ -30,6 +30,7 @@ body {
   font-family: var(--Font-Family-Primary);
   display: grid;
   grid-template-columns: 1fr;
+  height: 100vh;
 }
 
 /* Nav */
@@ -39,9 +40,33 @@ nav {
 }
 
 .hero-img {
-  margin-bottom: 6.8rem;
+  /* margin-bottom: 2.8rem; */
 }
 
 .hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  text-align: center;
   padding: 3.2rem;
+}
+
+h1 {
+  color: var(--Color-Dark-Grayish-Red);
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+h1 span {
+  color: var(--Color-Desaturated-Red);
+  font-weight: 300;
+  display: block;
+}
+
+p {
+  color: var(--Color-Desaturated-Red);
+  font-size: var(--Font-Size-Default);
+  line-height: 1.6;
+  margin-bottom: 2rem;
 }
