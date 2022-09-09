@@ -93,6 +93,7 @@ button {
   top: 0;
   right: 0;
   cursor: pointer;
+  box-shadow: 1px 5px 30px hsla(0, 36%, 70%, 1);
 }
 
 button img {
