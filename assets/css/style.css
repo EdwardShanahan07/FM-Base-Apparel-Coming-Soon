@@ -75,9 +75,9 @@ input {
   color: var(--Color-Desaturated-Red);
   background: transparent;
   border: 1px solid var(--Color-Desaturated-Red);
-  border-radius: 28px;
+  border-radius: 30px;
   width: 100%;
-  padding: 2rem 2.8rem;
+  padding: 2rem 3rem;
 }
 
 input::placeholder {
@@ -87,10 +87,14 @@ input::placeholder {
 button {
   background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
   border: none;
-  padding: 2rem 2.8rem;
-  border-radius: 28px;
+  padding: 2rem 4rem;
+  border-radius: 30px;
   position: absolute;
   top: 0;
   right: 0;
   cursor: pointer;
+}
+
+button img {
+  width: 70%;
 }
