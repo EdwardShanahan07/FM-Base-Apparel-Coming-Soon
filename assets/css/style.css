@@ -39,6 +39,14 @@ nav {
   padding: 3.2rem;
 }
 
+/* Image */
+
+.hero-img img {
+  width: 100%;
+}
+
+/* Hero Text */
+
 .hero-text {
   display: flex;
   flex-direction: column;
