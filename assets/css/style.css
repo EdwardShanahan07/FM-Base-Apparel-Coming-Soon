@@ -107,3 +107,13 @@ button {
 button img {
   width: 70%;
 }
+
+@media (min-width: 700px) {
+  body {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hero-text {
+    text-align: left;
+  }
+}
