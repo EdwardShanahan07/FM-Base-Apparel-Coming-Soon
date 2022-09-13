@@ -41,8 +41,17 @@ nav {
 
 /* Image */
 
+.hero-img {
+  background: url(../images/hero-mobile.jpg) no-repeat center/cover;
+  height: 250px;
+}
+
 .hero-img img {
   width: 100%;
+}
+
+.hero-img--desktop {
+  display: none;
 }
 
 /* Hero Text */
@@ -111,9 +120,22 @@ button img {
 @media (min-width: 700px) {
   body {
     grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr;
   }
 
   .hero-text {
     text-align: left;
+  }
+
+  .hero-img--mobile {
+    display: none;
+  }
+
+  .hero-img {
+    grid-row: 1 /3;
+  }
+
+  .hero-img--desktop {
+    display: block;
   }
 }
