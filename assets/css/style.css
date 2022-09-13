@@ -50,6 +50,30 @@ header {
   width: 100%;
 }
 
+/* Hero Text */
+
 .hero-text {
+  text-align: center;
   padding: var(--Padding-Mobile);
+}
+
+h1 {
+  color: var(--Dark-Grayish-Red);
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 42px;
+  margin-bottom: 1.6rem;
+}
+
+h1 span {
+  color: var(--Desaturated-Red);
+  font-weight: 300;
+  display: block;
+}
+
+p {
+  color: var(--Desaturated-Red);
+  font-size: 1.4rem;
+  line-height: 2;
+  margin-bottom: 4rem;
 }
