@@ -77,3 +77,15 @@ p {
   line-height: 2;
   margin-bottom: 4rem;
 }
+
+form input {
+  width: 100%;
+  border: none;
+  border: 1px solid var(--Desaturated-Red);
+  border-radius: 28px;
+  padding: 1.1rem 2.4rem;
+}
+
+form input::placeholder {
+  color: var(--Desaturated-Red);
+}
