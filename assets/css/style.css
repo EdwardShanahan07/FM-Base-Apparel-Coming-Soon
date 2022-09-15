@@ -8,8 +8,8 @@
   --Desaturated-Red: #ce9797;
   --Soft-Red: #f96262;
   --Dark-Grayish-Red: #413a3a;
-  --Linear-Gradient-1: 135deg, from #ffffff, to #fff5f5;
-  --Linear-Gradients-2: 135deg, from #f8bfbf, to #ee8c8c;
+  --Linear-Gradient-1: 135deg, #ffffff, #fff5f5;
+  --Linear-Gradients-2: 135deg, #f8bfbf, #ee8c8c;
   --Font-Size: 16px;
   --Padding-Mobile: 3.2rem;
 }
@@ -78,14 +78,41 @@ p {
   margin-bottom: 4rem;
 }
 
+form {
+  position: relative;
+}
+
 form input {
+  font-family: inherit;
+  font-size: 1.4rem;
+  line-height: 28px;
   width: 100%;
   border: none;
   border: 1px solid var(--Desaturated-Red);
   border-radius: 28px;
-  padding: 1.1rem 2.4rem;
+  padding: 1.1rem 0rem 0.9rem 2.4rem;
 }
 
 form input::placeholder {
+  font-family: inherit;
+  font-size: 1.4rem;
+  line-height: 28px;
   color: var(--Desaturated-Red);
+}
+
+form button {
+  background: linear-gradient(var(--Linear-Gradients-2));
+  border: none;
+  border-radius: 28px;
+  box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1.5rem 2.8rem;
+  cursor: pointer;
+}
+
+form button img {
+  width: 0.9rem;
+  height: 1.7rem;
 }
