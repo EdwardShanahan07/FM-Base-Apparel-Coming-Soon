@@ -30,8 +30,7 @@ body {
   background: linear-gradient(var(--Linear-Gradient-1));
   font-family: "Josefin Sans", sans-serif;
   display: grid;
-  grid-template-columns: 1fr;
-  height: 100vh;
+  max-height: 100vh;
 }
 
 /* Header */
@@ -43,12 +42,19 @@ header {
 /* Hero Image */
 
 .hero-img {
+  background: url("../images/hero-mobile.jpg") no-repeat center/cover;
+  height: 250px;
   width: 100%;
   margin-bottom: 6.4rem;
 }
 
 .hero-img img {
+  object-fit: cover;
   width: 100%;
+}
+
+.hero-img--desktop {
+  display: none;
 }
 
 /* Hero Text */
