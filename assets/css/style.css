@@ -31,7 +31,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   display: grid;
   grid-template-columns: 1fr;
-  max-height: 100vh;
+  min-height: 100vh;
 }
 
 /* Header */
@@ -43,8 +43,6 @@ header {
 /* Hero Image */
 
 .hero-img {
-  background: url("../images/hero-mobile.jpg") no-repeat center/cover;
-
   width: 100%;
   margin-bottom: 6.4rem;
 }
