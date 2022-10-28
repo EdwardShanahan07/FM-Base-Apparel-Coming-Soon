@@ -122,6 +122,9 @@ form button img {
 }
 
 @media (min-width: 900px) {
+  body {
+    background: url(../images/bg-pattern-desktop.svg) no-repeat center/cover;
+  }
   main {
     display: flex;
     justify-content: space-between;
